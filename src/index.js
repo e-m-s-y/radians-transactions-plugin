@@ -13,6 +13,15 @@ exports.plugin = {
 			return;
 		}
 
+		logger.info(`[${this.alias}] Registering rental start transaction...`);
+		await Transactions.Handlers.Registry.registerTransactionHandler(Radians.TransactionHandlerFactory.rentalStart());
+		logger.info(`[${this.alias}] Registered rental start transaction.`);
+		logger.info(`[${this.alias}] Registering rental finish transaction...`);
+		await Transactions.Handlers.Registry.registerTransactionHandler(Radians.TransactionHandlerFactory.rentalFinish());
+		logger.info(`[${this.alias}] Registered rental finish transaction.`);
+		logger.info(`[${this.alias}] Registering scooter registration transaction...`);
+		await Transactions.Handlers.Registry.registerTransactionHandler(Radians.TransactionHandlerFactory.scooterRegistration());
+		logger.info(`[${this.alias}] Registered scooter registration transaction.`);
 		logger.info(`[${this.alias}] Registering login transaction...`);
 		await Transactions.Handlers.Registry.registerTransactionHandler(Radians.TransactionHandlerFactory.login());
 		logger.info(`[${this.alias}] Registered login transaction.`);
