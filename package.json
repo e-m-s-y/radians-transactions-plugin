@@ -1,0 +1,27 @@
+{
+  "name": "@foly/radians-transactions-plugin",
+  "version": "1.0.0",
+  "description": "Custom transactions for the Radians blockchain",
+  "author": "emsy",
+  "license": "MIT",
+  "main": "src/index.js",
+  "scripts": {},
+  "dependencies": {
+    "@arkecosystem/core-transactions": "2.6.37",
+    "@foly/radians-sdk": "^1.0.1"
+  },
+  "homepage": "https://github.com/e-m-s-y/radians-transactions-plugin",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/e-m-s-y/radians-transactions-plugin.git"
+  },
+  "bugs": {
+    "url": "https://github.com/e-m-s-y/radians-transactions-plugin/issues"
+  },
+  "keywords": [
+    "arkecosystem",
+    "plugin",
+    "transaction",
+    "authentication"
+  ]
+}
