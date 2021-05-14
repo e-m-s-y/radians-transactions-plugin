@@ -19,10 +19,10 @@ exports.plugin = {
 		await Transactions.Handlers.Registry.registerTransactionHandler(Radians.TransactionHandlerFactory.rentalFinish());
 		logger.info(`[${this.alias}] Registering scooter registration transaction...`);
 		await Transactions.Handlers.Registry.registerTransactionHandler(Radians.TransactionHandlerFactory.scooterRegistration());
-		logger.info(`[${this.alias}] Registering login transaction...`);
-		await Transactions.Handlers.Registry.registerTransactionHandler(Radians.TransactionHandlerFactory.login());
 		logger.info(`[${this.alias}] Registering logout transaction...`);
 		await Transactions.Handlers.Registry.registerTransactionHandler(Radians.TransactionHandlerFactory.logout());
+		logger.info(`[${this.alias}] Registering login transaction...`);
+		await Transactions.Handlers.Registry.registerTransactionHandler(Radians.TransactionHandlerFactory.login());
 		logger.info(`[${this.alias}] All custom transactions registered!`);
 	}
 };
