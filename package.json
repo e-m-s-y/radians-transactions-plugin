@@ -8,7 +8,7 @@
   "scripts": {},
   "dependencies": {
     "@arkecosystem/core-transactions": "2.6.37",
-    "@foly/radians-sdk": "git@github.com:e-m-s-y/radians-sdk.git"
+    "@foly/radians-sdk": "git+ssh://git@github.com:e-m-s-y/radians-sdk.git"
   },
   "homepage": "https://github.com/e-m-s-y/radians-transactions-plugin",
   "repository": {
