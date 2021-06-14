@@ -1,14 +1,11 @@
 {
   "name": "@foly/radians-transactions-plugin",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Custom transactions for the Radians blockchain",
   "author": "emsy",
   "license": "MIT",
   "main": "src/index.js",
-  "scripts": {
-    "build": "yarn clean && yarn compile",
-    "clean": "del dist"
-  },
+  "scripts": {},
   "dependencies": {
     "@arkecosystem/core-transactions": "2.6.37",
     "@foly/radians-sdk": "git+ssh://git@github.com/e-m-s-y/radians-sdk.git"
