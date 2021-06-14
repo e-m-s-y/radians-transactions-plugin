@@ -131,8 +131,8 @@
     type-fest "^0.17.0"
 
 "@foly/radians-sdk@git+ssh://git@github.com/e-m-s-y/radians-sdk.git":
-  version "1.0.26"
-  resolved "git+ssh://git@github.com/e-m-s-y/radians-sdk.git#1af838717542e51a874182965b985635cbd04b2e"
+  version "1.0.28"
+  resolved "git+ssh://git@github.com/e-m-s-y/radians-sdk.git#f3e5bda727ae341acf0112683260a35c964d0a7c"
   dependencies:
     "@arkecosystem/core-transactions" "2.6.37"
     "@arkecosystem/crypto" "2.6.37"
