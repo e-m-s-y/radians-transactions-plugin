@@ -130,9 +130,9 @@
     fast-sort "^2.2.0"
     type-fest "^0.17.0"
 
-"@foly/radians-sdk@git+ssh://git@github.com/e-m-s-y/radians-sdk.git":
-  version "1.0.28"
-  resolved "git+ssh://git@github.com/e-m-s-y/radians-sdk.git#f3e5bda727ae341acf0112683260a35c964d0a7c"
+"@foly/radians-sdk@git+ssh://git@github.com/e-m-s-y/radians-sdk.git#master":
+  version "1.0.31"
+  resolved "git+ssh://git@github.com/e-m-s-y/radians-sdk.git#167d89170b7ba8bb8b9dd0995d4fed61ad6b6fb5"
   dependencies:
     "@arkecosystem/core-transactions" "2.6.37"
     "@arkecosystem/crypto" "2.6.37"
@@ -232,9 +232,9 @@
   integrity sha512-5tXH6Bx/kNGd3MgffdmP4dy2Z+G4eaXw0SE81Tq3BNadtnMR5/ySMzX4SLEzHJzSmPNn4HIdpQsBvXMUykr58w==
 
 "@types/node@*":
-  version "15.12.2"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-15.12.2.tgz#1f2b42c4be7156ff4a6f914b2fb03d05fa84e38d"
-  integrity sha512-zjQ69G564OCIWIOHSXyQEEDpdpGl+G348RAKY0XXy9Z5kU9Vzv1GMNnkar/ZJ8dzXB3COzD9Mo9NtRZ4xfgUww==
+  version "15.12.4"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-15.12.4.tgz#e1cf817d70a1e118e81922c4ff6683ce9d422e26"
+  integrity sha512-zrNj1+yqYF4WskCMOHwN+w9iuD12+dGm0rQ35HLl9/Ouuq52cEtd0CH9qMgrdNmi5ejC1/V7vKEXYubB+65DkA==
 
 "@types/node@10.12.18":
   version "10.12.18"
@@ -1855,9 +1855,9 @@ to-regex@^3.0.1:
     safe-regex "^1.1.0"
 
 tslib@^2.0.3:
-  version "2.2.0"
-  resolved "https://registry.yarnpkg.com/tslib/-/tslib-2.2.0.tgz#fb2c475977e35e241311ede2693cee1ec6698f5c"
-  integrity sha512-gS9GVHRU+RGn5KQM2rllAlR3dU6m7AcpJKdtH8gFvQiC4Otgk98XnmMU+nZenHt/+VhnBPWwgrJsyrdcw6i23w==
+  version "2.3.0"
+  resolved "https://registry.yarnpkg.com/tslib/-/tslib-2.3.0.tgz#803b8cdab3e12ba581a4ca41c8839bbb0dacb09e"
+  integrity sha512-N82ooyxVNm6h1riLCoyS9e3fuJ3AMG2zIZs2Gd1ATcSFjSA23Q0fzjjZeh0jbJvWVDZ0cJT8yaNNaaXHzueNjg==
 
 type-fest@^0.17.0:
   version "0.17.0"
