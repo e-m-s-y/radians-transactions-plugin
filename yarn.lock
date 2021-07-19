@@ -105,13 +105,12 @@
     type-fest "^0.17.0"
 
 "@foly/radians-sdk@git+ssh://git@github.com/e-m-s-y/radians-sdk.git#master":
-  version "1.0.32"
-  resolved "git+ssh://git@github.com/e-m-s-y/radians-sdk.git#d145bdbac3d5c5e7bb258878f6d02c100dc7856e"
+  version "1.0.33"
+  resolved "git+ssh://git@github.com/e-m-s-y/radians-sdk.git#575f6b0bdd5b9d3c6fb2ced9f8fcf1bcac3c5a1f"
   dependencies:
     "@arkecosystem/core-transactions" "2.7.25"
     "@arkecosystem/crypto" "2.7.25"
     axios "^0.21.1"
-    bytebuffer "5.0.1"
     socket.io-client "^2.3.1"
 
 "@hapi/address@2.x.x":
@@ -483,7 +482,7 @@ bufio@~1.0.7:
   resolved "https://registry.yarnpkg.com/bufio/-/bufio-1.0.7.tgz#b7f63a1369a0829ed64cc14edf0573b3e382a33e"
   integrity sha512-bd1dDQhiC+bEbEfg56IdBv7faWa6OipMs/AFFFvtFnB3wAYjlwQpQRZ0pm6ZkgtfL0pILRXhKxOiQj6UzoMR7A==
 
-bytebuffer@5.0.1, bytebuffer@^5.0.1:
+bytebuffer@^5.0.1:
   version "5.0.1"
   resolved "https://registry.yarnpkg.com/bytebuffer/-/bytebuffer-5.0.1.tgz#582eea4b1a873b6d020a48d58df85f0bba6cfddd"
   integrity sha1-WC7qSxqHO20CCkjVjfhfC7ps/d0=
