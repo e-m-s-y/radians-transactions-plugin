@@ -23,6 +23,8 @@ exports.plugin = {
 		await Transactions.Handlers.Registry.registerTransactionHandler(Radians.TransactionHandlerFactory.logout());
 		logger.info(`[${this.alias}] Registering login transaction...`);
 		await Transactions.Handlers.Registry.registerTransactionHandler(Radians.TransactionHandlerFactory.login());
+		logger.info(`[${this.alias}] Registering authentication transaction...`);
+		await Transactions.Handlers.Registry.registerTransactionHandler(Radians.TransactionHandlerFactory.authentication());
 		logger.info(`[${this.alias}] Registering character registration transaction...`);
 		await Transactions.Handlers.Registry.registerTransactionHandler(Radians.TransactionHandlerFactory.characterRegistration());
 		logger.info(`[${this.alias}] All custom transactions registered!`);
