@@ -22,8 +22,8 @@ exports.plugin = {
 
 				for(const key in Radians.Indexes) {
 					if(Radians.Indexes.hasOwnProperty(key)) {
-						walletManager.registerIndex(key, Radians.Indexers[Radians.Indexes[key]]);
-						logger.info(`[${this.alias}] Registered '${key}' indexer`);
+						walletManager.registerIndex(Radians.Indexes[key], Radians.Indexers[Radians.Indexes[key]]);
+						logger.info(`[${this.alias}] Registered '${Radians.Indexes[key]}' indexer`);
 					}
 				}
 			});
