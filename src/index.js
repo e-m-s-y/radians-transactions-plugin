@@ -14,17 +14,19 @@ exports.plugin = {
 			return;
 		}
 
-		logger.info(`[${this.alias}] Registering wallet indexers...`);
+		container.resolvePlugin('event-emitter')
+			.once(ApplicationEvents.StateStarting, database => {
+				logger.info(`[${this.alias}] Registering wallet indexers...`);
 
-		const database = container.resolvePlugin('database');
+				const walletManager = database.walletManager;
 
-		for(const key in Radians.Indexes) {
-			if(Radians.Indexes.hasOwnProperty(key)) {
-				database.walletManager.registerIndex(key, Radians.Indexers[Radians.Indexes[key]]);
-				logger.info(`[${this.alias}] Registered '${key}' indexer`);
-			}
-		}
-		
+				for(const key in Radians.Indexes) {
+					if(Radians.Indexes.hasOwnProperty(key)) {
+						walletManager.registerIndex(key, Radians.Indexers[Radians.Indexes[key]]);
+						logger.info(`[${this.alias}] Registered '${key}' indexer`);
+					}
+				}
+			});
 		logger.info(`[${this.alias}] Registering rental start transaction...`);
 		await Transactions.Handlers.Registry.registerTransactionHandler(Radians.TransactionHandlerFactory.rentalStart());
 		logger.info(`[${this.alias}] Registering rental finish transaction...`);
