@@ -23,7 +23,7 @@ exports.plugin = {
 					if(Radians.Indexes.hasOwnProperty(key)) {
 						walletManager.registerIndex(key, Radians.Indexers[Radians.Indexes[key]]);
 
-						logger.info(`[${this.alias}] Registering '${index}' indexer`);
+						logger.info(`[${this.alias}] Registering '${key}' indexer`);
 					}
 				}
 			});
